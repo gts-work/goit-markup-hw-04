@@ -604,12 +604,17 @@ h6 {
 }
 
 .command-icon {
-  display: inline-block;
+  display: block;
+}
+
+.command-icon > .icon {
+  /* display: inline-block; */
   width: 44px;
   height: 44px;
 
   border-radius: 50%;
   background-color: var(--color-white);
+  fill: var(--color-icon-gray);
 
   padding: 12px;
   margin-right: auto;
@@ -628,17 +633,15 @@ h6 {
   margin-right: 32px;
 }
 
-.icon-social {
-  fill: var(--color-icon-gray);
+.command-icon > .icon {
+  display: block;
 }
 
-.command-icon:hover {
+.command-icon > .icon:hover {
   background-color: var(--active-color);
-  /* fill: var(--color-white); */
-}
-
-.icon-social:hover {
   fill: var(--color-white);
+
+  cursor: pointer;
 }
 
 /* Footer */
