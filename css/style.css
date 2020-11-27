@@ -28,6 +28,7 @@ html {
   --color-button: rgba(0, 0, 0, 0.15);
   --background-footer: #2f303a;
   --border-color: #eeeeee;
+  --color-icon-gray: #afb1b8;
 }
 
 /* Body */
@@ -568,6 +569,14 @@ h6 {
   margin-bottom: 10px;
 }
 
+.command .text.secondary {
+  margin-bottom: 16px;
+}
+
+.command-list-icon {
+  display: flex;
+}
+
 .command-list {
   display: flex;
 }
@@ -592,6 +601,44 @@ h6 {
   display: block;
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.command-icon {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  background-color: var(--color-white);
+
+  padding: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.command-icon:not(:last-child) {
+  margin-right: 10px;
+}
+
+.command-icon:first-child {
+  margin-left: 32px;
+}
+
+.command-icon:last-child {
+  margin-right: 32px;
+}
+
+.icon-social {
+  fill: var(--color-icon-gray);
+}
+
+.command-icon:hover {
+  background-color: var(--active-color);
+  /* fill: var(--color-white); */
+}
+
+.icon-social:hover {
+  fill: var(--color-white);
 }
 
 /* Footer */
