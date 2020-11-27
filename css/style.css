@@ -90,6 +90,13 @@ h6 {
   border-color: transparent;
 }
 
+/* Icon */
+.icon {
+  display: inline-block;
+
+  vertical-align: middle;
+}
+
 /* LIST */
 .list p {
   margin-top: 0;
@@ -186,12 +193,6 @@ h6 {
 
 .contact > .item {
   display: flex;
-}
-
-.icon {
-  display: inline-block;
-
-  vertical-align: middle;
 }
 
 .icon-envelope {
@@ -396,7 +397,24 @@ h6 {
   letter-spacing: 0.03em;
 }
 
-.feature-item::before {
+.feature-item .feature-icon {
+  height: 120px;
+
+  background-color: var(--secondary-background-color);
+  background-position: center;
+  border-radius: 4px;
+
+  margin-bottom: 30px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+/* .feature-icon > .icon {
+  text-align: center;
+} */
+
+/* .feature-item::before {
   content: "";
 
   display: block;
@@ -409,23 +427,23 @@ h6 {
   background-position: center;
 
   margin-bottom: 30px;
-}
+} */
 
-.feature-item:nth-child(1)::before {
+/* .feature-item:nth-child(1)::before {
   background-image: url("../images/antenna_1.svg");
-}
+} */
 
-.feature-item:nth-child(2)::before {
+/* .feature-item:nth-child(2)::before {
   background-image: url("../images/clock_1.svg");
-}
+} */
 
-.feature-item:nth-child(3)::before {
+/* .feature-item:nth-child(3)::before {
   background-image: url("../images/diagram_1.svg");
-}
+} */
 
-.feature-item:nth-child(4)::before {
+/* .feature-item:nth-child(4)::before {
   background-image: url("../images/astronaut_1.svg");
-}
+} */
 
 /* What are we doing */
 .section.we-doing {
