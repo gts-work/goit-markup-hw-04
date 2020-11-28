@@ -575,6 +575,7 @@ h6 {
 
 .command-list-icon {
   display: flex;
+  justify-content: space-between;
 }
 
 .command-list {
@@ -604,11 +605,11 @@ h6 {
 }
 
 .command-icon {
-  display: block;
+  display: flex;
 }
 
 .command-icon > .icon {
-  /* display: inline-block; */
+  display: block;
   width: 44px;
   height: 44px;
 
@@ -642,6 +643,50 @@ h6 {
   fill: var(--color-white);
 
   cursor: pointer;
+}
+
+/* Clients */
+.section.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-list {
+  display: flex;
+}
+
+.clients-list > .item {
+  display: block;
+
+  width: calc((100% - 150px) / 6);
+  height: 90px;
+}
+
+.clients-list > .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-item {
+  display: flex;
+
+  height: 90px;
+
+  background-color: #fff;
+  border: 1px solid var(--color-icon-gray);
+  border-radius: 4px;
+  fill: var(--color-icon-gray);
+
+  justify-content: center;
+  align-items: center;
+}
+
+/* .clients-item > .icon {
+  margin: auto;
+} */
+
+.clients-item:hover {
+  border-color: var(--active-color);
+  fill: var(--active-color);
 }
 
 /* Footer */
@@ -697,3 +742,5 @@ h6 {
 .footer-address > .item:not(:last-child) {
   margin-bottom: 9px;
 }
+
+/* TEST */
