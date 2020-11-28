@@ -413,41 +413,6 @@ h6 {
   text-align: center;
 }
 
-/* .feature-icon > .icon {
-  text-align: center;
-} */
-
-/* .feature-item::before {
-  content: "";
-
-  display: block;
-  height: 120px;
-
-  background-color: var(--secondary-background-color);
-  border-radius: 4px;
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  margin-bottom: 30px;
-} */
-
-/* .feature-item:nth-child(1)::before {
-  background-image: url("../images/antenna_1.svg");
-} */
-
-/* .feature-item:nth-child(2)::before {
-  background-image: url("../images/clock_1.svg");
-} */
-
-/* .feature-item:nth-child(3)::before {
-  background-image: url("../images/diagram_1.svg");
-} */
-
-/* .feature-item:nth-child(4)::before {
-  background-image: url("../images/astronaut_1.svg");
-} */
-
 /* What are we doing */
 .section.we-doing {
   padding-bottom: 94px;
