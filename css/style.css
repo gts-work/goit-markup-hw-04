@@ -687,10 +687,6 @@ h6 {
   align-items: center;
 }
 
-/* .clients-item > .icon {
-  margin: auto;
-} */
-
 .clients-item:hover {
   border-color: var(--active-color);
   fill: var(--active-color);
@@ -785,13 +781,9 @@ h6 {
 .social-list > .list-item:not(:last-child) {
   margin-right: 10px;
 }
-/* .social-list .link-item {
-  fill: var(--color-white);
-} */
 
 .social-list .link-item:hover {
   background-color: var(--active-color);
-  /* fill: var(--color-white); */
 }
 
 /* TEST */
