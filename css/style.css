@@ -35,6 +35,8 @@ html {
 
 /* Body */
 body {
+  margin: 0;
+
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
@@ -264,7 +266,7 @@ h6 {
 
 /* Hero */
 .hero {
-  max-width: 1600px;
+  min-width: 1600px;
   height: 600px;
 
   margin-right: auto;
@@ -660,6 +662,8 @@ h6 {
 /* Footer */
 .footer {
   background-color: var(--background-footer);
+
+  /* outline: 1px solid tomato; */
 }
 
 .footer > .container {
